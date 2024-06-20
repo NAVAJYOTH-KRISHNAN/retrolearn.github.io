@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body{
+    background-color: #111111;
+    color: #00ff00;
+    font-family: "Space Mono", monospace;
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0f0;
+    margin-bottom: 30px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #0f0;
+  }
