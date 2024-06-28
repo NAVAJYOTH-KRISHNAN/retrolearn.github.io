@@ -3,6 +3,7 @@ body{
     background-color: #111111;
     color: #00ff00;
     font-family: "Space Mono", monospace;
+    text-transform: uppercase;
 }
   table {
     width: 100%;
@@ -15,3 +16,18 @@ body{
     text-align: left;
     border: 1px solid #0f0;
   }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f0;
+    color: #111;
+    text-decoration: none;
+    margin: 10px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+a{
+  color: greenyellow;
+}
