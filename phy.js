@@ -113,6 +113,10 @@ const resources = [
     resource: "SEMICONDUCTORS",
     link: "https://www.youtube.com/playlist?list=PL_A4M5IAkMadpiaxmDasoChFugiq6K53N",
   },
+  {
+    resource: "COMMUNICATIONS SYSTEMS",
+    link: "https://www.youtube.com/watch?v=8NgMqK9X79Y&list=PLjvx7xqdpePJ8EGZq9qF4VMT4SH8j0dnY",
+  },
 ];
 
 // Function to populate the first table
