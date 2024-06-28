@@ -3,6 +3,7 @@ body{
     background-color: #111111;
     color: #00ff00;
     font-family: "Space Mono", monospace;
+    text-transform: uppercase;
 }
   table {
     width: 100%;
@@ -26,4 +27,7 @@ body{
 .button-container {
   text-align: center;
   margin-top: 20px;
+}
+a{
+  color: greenyellow;
 }
