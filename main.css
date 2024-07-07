@@ -41,3 +41,16 @@ a {
     text-align: right;
     margin-right: 0;
 }
+.flare-image {
+    width: 300px;
+    height: auto;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.imageflare:hover .flare-image {
+    box-shadow: 0 0 20px 10px rgba(173, 255, 47, 0.5);
+}
+.imageflare{
+    position: relative;
+    display: inline-block;
+}
