@@ -164,4 +164,3 @@ document.addEventListener("DOMContentLoaded", () => {
     resourceTable.appendChild(row);
   });
 });
-

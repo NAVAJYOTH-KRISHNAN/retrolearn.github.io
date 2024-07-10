@@ -54,3 +54,35 @@ a {
     position: relative;
     display: inline-block;
 }
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    background-color: #111111;
+    color: #00ff00;
+    font-family: "Space Mono", monospace;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    color: greenyellow;
+}
+
+fieldset {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0f0;
+    background-color: #222;
+    color: #00ff00;
+}
+
+
+@media (max-width: 600px) {
+     fieldset {
+        width: 100%;
+        padding: 10px;
+    }
+
+}
