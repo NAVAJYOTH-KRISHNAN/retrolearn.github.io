@@ -10,7 +10,7 @@ body {
 }
 
 table {
-    width: 100%;
+    width: 99.5%;
     border-collapse: collapse;
     border: 1px solid #0f0;
     margin-bottom: 30px;
@@ -43,11 +43,9 @@ a {
 }
 
 fieldset {
-    margin: 20px auto;
+    margin: 15px;
     padding: 20px;
-    border: 1px solid #0f0;
-    background-color: #222;
-    color: #00ff00;
+    border-radius:25px;
 }
 
 embed {
@@ -56,14 +54,6 @@ embed {
 }
 
 @media (max-width: 600px) {
-    table, fieldset {
-        width: 100%;
-        padding: 10px;
-    }
-
-    th, td {
-        padding: 5px;
-    }
 
     embed {
         height: 300px;
@@ -77,3 +67,4 @@ embed {
         margin-top: 10px;
     }
 }
+
