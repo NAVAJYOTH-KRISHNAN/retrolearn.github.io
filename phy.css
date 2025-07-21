@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 body {
-    background-color: #111111;
-    color: #00ff00;
+    background-color: black;
+    color: whitesmoke;
     font-family: "Space Mono", monospace;
     text-transform: uppercase;
     margin: 0;
@@ -39,7 +39,7 @@ th, td {
 }
 
 a {
-    color: greenyellow;
+    color: whitesmoke;
 }
 
 fieldset {

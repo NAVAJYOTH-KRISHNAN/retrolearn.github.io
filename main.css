@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&family=Share+Tech+Mono&family=Teko&display=swap');
+/* font-family: "Bebas Neue", sans-serif; */
 html{
     font-size: 22px;
     font-family: "Space Mono", monospace;
@@ -8,6 +10,7 @@ body{
     background-color:#111111;
     color: #0f0;
     justify-content: center;
+    min-height: 100vh;
 }
 
 a {
@@ -58,13 +61,17 @@ a {
 
 body {
     background-color: #111111;
-    color: #00ff00;
+    color: rgb(0, 203, 58);
     font-family: "Space Mono", monospace;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
 }
-
+.var:hover{
+    background-color:#00ff00;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
 
 a {
     color: greenyellow;
